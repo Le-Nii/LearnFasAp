@@ -10,7 +10,7 @@ Accept: application/json
 
 ###
 
-POST http://127.0.0.1:8000/createposts
+POST http://127.0.0.1:8000/posts
 Content-Type: application/json
 
 {
@@ -19,3 +19,8 @@ Content-Type: application/json
   "published": true,
   "rating": 1
 }
+
+###
+
+GET http://127.0.0.1:8000/posts/3333
+Accept: application/json

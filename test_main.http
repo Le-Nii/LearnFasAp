@@ -22,5 +22,11 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:8000/posts/3333
+GET http://127.0.0.1:8000/posts/96
 Accept: application/json
+
+###
+
+DELETE http://127.0.0.1:8000/posts/96
+Accept: application/json
+

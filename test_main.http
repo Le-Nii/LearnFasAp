@@ -11,4 +11,10 @@ Accept: application/json
 ###
 
 POST http://127.0.0.1:8000/createposts
-Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Harry Potter",
+  "content": "Harry Potter and the Half Blood Prince",
+  "published": true
+}
